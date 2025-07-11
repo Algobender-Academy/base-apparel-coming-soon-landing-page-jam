@@ -22,6 +22,7 @@ img {
   --PLACEHOLDER-CLR: hsla(0, 36%, 70%, 0.5);
   --INPUT-CLR: #423a3a;
   --INPUT-BORDER-CLR: hsla(0, 36%, 70%, 0.5);
+  
   --INPUT-BORDER-ERROR-CLR: #f96464;
   --INPUT-BORDER-SUCCESS-CLR: #008000;
   --INPUT-MESSAGE-ERROR-CLR: #f96464;
@@ -181,6 +182,7 @@ input[type="email"]:focus {
   top: 50%;
   transform: translateY(-50%);
   right: 72px;
+  display: none;
 }
 
 .rsvpForm__status-icon img {
@@ -191,6 +193,7 @@ input[type="email"]:focus {
   font: var(--STATUS-MOB);
   margin-top: 0.5rem;
   margin-left: 1.5rem;
+  display: none;
 }
 
 .rsvpForm__button:disabled {
