@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Nkosinathi Manu Dhanda" />
+    <meta
+      name="description"
+      content="This is a Base Apparel Coming Soon Landing Page"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Base Apparel</title>
+  </head>
+
+  <body>
+    <section class="section-wrapper">
+      <header class="header">
+        <figure class="header__logo">
+          <img src="./images/logo.svg" alt="logo" width="158" height="33" />
+
+          <figcaption class="offscreen">logo</figcaption>
+        </figure>
+
+        <figure class="header__mobile-hero">
+          <img
+            src="./images/hero-mobile.jpg"
+            alt="hero-mobile"
+            width="375"
+            height="250"
+          />
+
+          <figcaption class="offscreen">hero-mobile</figcaption>
+        </figure>
+      </header>
+
+      <main class="main-content">
+        <h1 class="main-content__title center">
+          <span>WE'RE</span> <br />COMING SOON
+        </h1>
+
+        <p class="main-content__description center">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <form
+          action="#"
+          class="main-content__rsvpForm"
+          id="rsvpForm"
+          novalidate
+        >
+          <div class="rsvpForm__wrapper">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="rsvpForm__email-input"
+              required
+              placeholder="Email Address"
+            />
+
+            <button type="submit" class="rsvpForm__button">
+              <figure class="rsvpForm__button-icon">
+                <img
+                  src="./images/icon-arrow.svg"
+                  alt="icon-arrow"
+                  width="12"
+                  height="20"
+                />
+
+                <figcaption class="offscreen">icon-arrow</figcaption>
+              </figure>
+            </button>
+
+            <figure class="rsvpForm__status-icon">
+              <img
+                src="./images/icon-error.svg"
+                alt="icon-error"
+                width="24"
+                height="24"
+              />
+
+              <figcaption class="offscreen">icon-error</figcaption>
+            </figure>
+          </div>
+        </form>
+      </main>
+    </section>
+
+    <figure class="footer__desktop-hero responsive-image">
+      <img
+        src="./images/hero-desktop.jpg"
+        alt="hero-desktop"
+        width="610"
+        height="800"
+      />
+
+      <figcaption class="offscreen">hero-desktop</figcaption>
+    </figure>
+  </body>
+</html>
